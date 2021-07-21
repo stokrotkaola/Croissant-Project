@@ -2,10 +2,29 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-h2 {
-  margin-top: 100px;
+h1,
+h2,
+h3 {
+  text-align: center;
 }
 
 h1 {
   font-size: 96px;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 100px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.gallery-heading {
+  margin-top: 100px;
+}
+
+.contact-heading {
+  margin-top: 100px;
 }
