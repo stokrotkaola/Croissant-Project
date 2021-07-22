@@ -70,6 +70,7 @@ ul {
 
 .form-control:focus {
   box-shadow: 0 0 0 0.2rem #ffc107;
+  border-color: #ffc107;
 }
 
 .contact-form-heading {
