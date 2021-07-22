@@ -77,14 +77,23 @@ ul {
 }
 
 @media (max-width: 576px) {
-  h2 {
-    margin-top: 40px;
-  }
   h1 {
     font-size: 50px;
   }
   h3 {
     font-size: 26px;
-    margin: 10px 20px;
+    margin-bottom: 50px;
+  }
+  h2 {
+    margin-top: 50px;
+  }
+  .last-row {
+    margin-bottom: 50px;
+  }
+  .gallery-heading {
+    margin-top: 50px;
+  }
+  .contact-heading {
+    margin-top: 50px;
   }
 }
