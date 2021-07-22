@@ -62,8 +62,16 @@ ul {
   font-size: 19px;
 }
 
-.unsplash-link:hover {
+.button-link:hover {
   background-color: #ffc107;
   border-color: #ffc107;
   color: black;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem #ffc107;
+}
+
+.contact-form-heading {
+  margin-bottom: 0;
 }

@@ -22,6 +22,10 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/9b61255305.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Contact</title>
   </head>
   <body>
@@ -50,24 +54,68 @@
             <li class="nav-item">
               <a class="nav-link" href="/contact.html">Contact</a>
             </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://github.com/stokrotkaola/Croissant-Project"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <h1 class="contact-heading">CONTACT</h1>
-    <h3>hungry for more?</h3>
+    <h3>hungry for more 🥐?</h3>
 
     <div class="container">
-      <div class="row">
-        <div class="col-12 bg-light rounded p-5">
-          <p class="container-heading">Feel free to reach out!</p>
-          <br />
-          <br />
-          <p>
-            Email:
-            <a href="mailto:croissant@croissant.com">croissant@croissant.com</a>
+      <div class="row d-flex justify-content-center last-row">
+        <div class="col-12 bg-light p-5">
+          <p class="container-heading contact-form-heading">
+            Feel free to reach out!
           </p>
+          <br />
+          <br />
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Name</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder=""
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder=""
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <br />
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-dark button-link">
+              Submit
+            </button>
+          </div>
         </div>
       </div>
     </div>
